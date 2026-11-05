@@ -29,7 +29,7 @@ def text_layer(pdf: Path) -> list[str]:
     return [doc[i].get_textpage().get_text_range() for i in range(len(doc))]
 
 
-PRICE_AT_RE = re.compile(r"€\s?(\d{1,3}(?:\.\d{3})*,\d{2})")
+PRICE_AT_RE = re.compile(r"€ ?(\d{1,3}(?:\.\d{3})*),(\d{1,2})")
 MAX_PAIR_DISTANCE_PT = 200
 
 
@@ -42,6 +42,17 @@ def _looks_like_medicine_symbol(img: Image.Image) -> bool:
     return red > 0.03 and white > 0.25
 
 
+def read_price(text: str) -> str | None:
+    """Price at the start of `text` ("€12,99 …") as "12,99", or None.
+
+    The price ends at a line break: some flyers print a one-decimal old price ("€12,9") with the discount
+    ("24%") on the next line, which must not be read as "12,92". One decimal is padded ("12,9" -> "12,90")
+    to match how product prices are written everywhere else.
+    """
+    m = PRICE_AT_RE.match(text.replace("\r", " ").replace("\n", " "))
+    return f"{m.group(1)},{m.group(2).ljust(2, '0')}" if m else None
+
+
 def _price_boxes(page: pdfium.PdfPage, min_height: float = 4) -> list[tuple[str, float, float]]:
     """Printed prices on the page as (price "13,69", left x, top y) in PDF points; min_height 9 = big prices only."""
     tp = page.get_textpage()
@@ -49,10 +60,10 @@ def _price_boxes(page: pdfium.PdfPage, min_height: float = 4) -> list[tuple[str,
     for k in range(tp.count_chars()):
         if tp.get_text_range(k, 1) != "€":
             continue
-        m = PRICE_AT_RE.match(tp.get_text_range(k, 12).replace("\r", "").replace("\n", ""))
+        price = read_price(tp.get_text_range(k, 12))
         left, bottom, _right, top = tp.get_charbox(k)
-        if m and top - bottom >= min_height:
-            out.append((m.group(1), left, top))
+        if price and top - bottom >= min_height:
+            out.append((price, left, top))
     return out
 
 
