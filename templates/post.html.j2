@@ -1,0 +1,64 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+{% include "_base.css.j2" %}
+{% set story = kind == 'story' %}
+body { background: {% if topic == 'flyer_teaser' %}var(--tint){% else %}#fff{% endif %}; }
+.wrap { position: absolute; top: {{ 190 if story else 150 }}px; left: 110px; right: 110px; bottom: {{ 260 if story else 200 }}px; display: flex; flex-direction: column; }
+.grow { flex: 1; min-height: 0; position: relative; }
+.disc { text-align: center; margin-top: 18px; }
+/* teaser */
+.t-h1 { font-weight: 800; text-transform: uppercase; letter-spacing: 1px; text-align: center; white-space: nowrap; font-size: {{ 128 if not story else 150 }}px; line-height: 1; margin-top: 10px; }
+.t-script { font-family: "Brand Script", cursive; font-weight: 700; text-align: center; font-size: {{ 190 if not story else 220 }}px; line-height: .9; margin-top: -10px; }
+.mock img { position: absolute; left: 50%; top: 52%; height: {{ 78 if story else 96 }}%; box-shadow: 0 26px 50px rgba(1,81,118,.30); border-radius: 6px; }
+.mock img.a { transform: translate(-66%, -50%) rotate(-13deg); }
+.mock img.b { transform: translate(-50%, -50%) rotate(-5deg); }
+.mock img.c { transform: translate(-36%, -50%) rotate(5deg); }
+/* product */
+.chip { font-size: 30px; padding: 10px 22px; align-self: flex-start; }
+.myagora { font-size: 32px; padding: 14px 24px; position: absolute; right: 0; top: 0; }
+.pname { font-size: {{ 84 if (headline|length) < 24 else (66 if (headline|length) < 40 else 54) }}px; font-weight: 800; line-height: 1.05; margin-top: 34px; }
+.pfmt { font-size: 38px; margin-top: 12px; font-weight: 500; }
+.photo { display: flex; align-items: center; justify-content: center; }
+.photo img { width: {{ 62 if story else 56 }}%; max-height: 96%; object-fit: contain; filter: drop-shadow(0 18px 30px rgba(1,81,118,.18)); }
+.photo .circle { width: 380px; height: 380px; border-radius: 50%; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 150px; font-weight: 800; }
+.pricebox { margin-top: 20px; display: flex; align-items: flex-end; gap: 34px; }
+.pricebox .badge { font-size: 86px; padding: 8px 24px; }
+.pricebox .old { font-size: 42px; }
+.pricebox .price { font-size: 176px; }
+.valid { font-size: 30px; font-weight: 600; margin-top: 10px; }
+/* generic */
+.band { background: var(--accent); color: #fff; padding: 18px 30px; font-weight: 800; font-size: 32px; text-transform: uppercase; letter-spacing: 1px; align-self: flex-start; }
+.big { font-size: {{ 100 if (headline|length) < 26 else 80 }}px; font-weight: 800; line-height: 1.05; text-transform: uppercase; margin-top: 60px; }
+.sub { font-size: 48px; margin-top: 30px; font-weight: 600; line-height: 1.25; }
+.bigprice { font-family: 'Brand Script', cursive; font-weight: 700; font-style: italic; font-size: 220px; line-height: .9; color: var(--navy); }
+.until { font-size: 44px; font-weight: 700; margin-bottom: 30px; }
+.panel { background: var(--accent); color: #fff; padding: 46px 50px; font-size: {{ 90 if (panel or '')|length < 12 else 44 }}px; font-weight: 800; line-height: 1.25; }
+</style></head><body>
+<div class="bracket tl"></div><div class="bracket br"></div>
+<div class="wrap">
+{% if topic == 'flyer_teaser' %}
+  <div class="t-h1">{{ headline }}</div><div class="t-script">{{ subline }}</div>
+  <div class="grow mock"><img class="a" src="{{ cover }}"><img class="b" src="{{ cover }}"><img class="c" src="{{ cover }}"></div>
+{% elif topic == 'product' %}
+  {% if product.my_agora_only and 'agor' in (product.flyer_category or '')|lower %}<span class="chip" style="visibility:hidden">&nbsp;</span>{% else %}<span class="chip">{{ product.flyer_category }}</span>{% endif %}
+  {% if product.my_agora_only %}<div class="myagora">SOLO CON MY AGORÀ</div>{% endif %}
+  <div class="pname">{{ headline }}</div>
+  {% if subline %}<div class="pfmt">{{ subline }}</div>{% endif %}
+  <div class="grow photo">{% if photo %}<img src="{{ photo }}">{% elif discount %}<div class="circle">{{ discount }}</div>{% endif %}</div>
+  <div class="pricebox">
+    {% if discount and photo %}<span class="badge">{{ discount }}</span>{% endif %}
+    <div>{% if old_price %}<div class="old">{{ old_price }}</div>{% endif %}<div class="price">{{ price }}</div></div>
+  </div>
+  <div class="valid">Offerta valida fino al {{ valid_to }}</div>
+{% else %}
+  <span class="band">{{ flyer_title }}</span>
+  <div class="big">{{ headline }}</div>
+  {% if subline %}<div class="sub">{{ subline }}</div>{% endif %}
+  <div class="grow"></div>
+  {% if big_price %}<div class="bigprice">{{ big_price }}</div>{% endif %}
+  {% if until %}<div class="until">{{ until }}</div>{% endif %}
+  {% if panel %}<div class="panel">{{ panel }}</div>{% endif %}
+{% endif %}
+  {% if disclaimers %}<div class="disc small">{{ disclaimers|join(' · ') }}</div>{% endif %}
+</div>
+<img class="logo" src="{{ logo }}" style="bottom: {{ 70 if story else 42 }}px; height: {{ 120 if not story else 150 }}px">
+</body></html>

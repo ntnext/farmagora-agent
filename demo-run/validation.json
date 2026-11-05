@@ -1,0 +1,8 @@
+[
+  {
+    "severity": "review",
+    "target": "loyalty",
+    "rule": "loyalty_exclusions",
+    "message": "no exclusions found on this flyer: confirm them"
+  }
+]

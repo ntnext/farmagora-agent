@@ -1,0 +1,34 @@
+{
+  "issues": [
+    {
+      "severity": "review",
+      "target": "post-03",
+      "rule": "medicine",
+      "message": "Enterogermina 4 Miliardi is a medicine: check the copy manually"
+    },
+    {
+      "severity": "review",
+      "target": "post-04",
+      "rule": "medicine",
+      "message": "Actigrip Giorno&Notte is a medicine: check the copy manually"
+    },
+    {
+      "severity": "review",
+      "target": "post-09",
+      "rule": "loyalty_exclusions",
+      "message": "loyalty exclusions unknown for this flyer: confirm small print"
+    },
+    {
+      "severity": "review",
+      "target": "screen-01",
+      "rule": "medicine",
+      "message": "Enterogermina 4 Miliardi is a medicine: check the slide manually"
+    },
+    {
+      "severity": "review",
+      "target": "screen-02",
+      "rule": "medicine",
+      "message": "Actigrip Giorno&Notte is a medicine: check the slide manually"
+    }
+  ]
+}

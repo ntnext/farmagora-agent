@@ -1,0 +1,66 @@
+{
+  "flyer_id": "dc6563e0816fca5da18dee22e6be0fc0430515fdce4d92ac6754d7b31a0343df",
+  "source_name": "2026-10_ottobre-novembre_tieni-alte-le-difese.pdf",
+  "state": "EXPORTED",
+  "created_at": "2026-11-03T13:30:50.174974",
+  "updated_at": "2026-11-03T13:31:03.377500",
+  "approvals": [
+    {
+      "gate": "data",
+      "by": "root",
+      "at": "2026-11-03T13:30:50.304342",
+      "note": "auto (--yes)"
+    },
+    {
+      "gate": "pack",
+      "by": "root",
+      "at": "2026-11-03T13:31:03.258713",
+      "note": "auto (--yes)"
+    }
+  ],
+  "llm_calls": [
+    {
+      "task": "extract",
+      "provider": "offline",
+      "model": "rules-v1",
+      "prompt_version": "extract_flyer.v1",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_eur": 0.0,
+      "latency_s": 0.02,
+      "at": "2026-11-03T13:30:50.198038"
+    },
+    {
+      "task": "copy_social",
+      "provider": "offline",
+      "model": "rules-v1",
+      "prompt_version": "copy_social.v1",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_eur": 0.0,
+      "latency_s": 0.0,
+      "at": "2026-11-03T13:30:50.310574"
+    },
+    {
+      "task": "copy_screens",
+      "provider": "offline",
+      "model": "rules-v1",
+      "prompt_version": "copy_screens.v1",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_eur": 0.0,
+      "latency_s": 0.0,
+      "at": "2026-11-03T13:30:50.317311"
+    }
+  ],
+  "history": [
+    "2026-11-03 13:30 ingest: 2026-10_ottobre-novembre_tieni-alte-le-difese.pdf (8 pages)",
+    "2026-11-03 13:30 extract: 51 products via offline/rules-v1",
+    "2026-11-03 13:30 approve-data: auto (--yes)",
+    "2026-11-03 13:30 generate: 18 posts/stories, 12 screens",
+    "2026-11-03 13:30 check: 5 issues, 0 blocking",
+    "2026-11-03 13:31 render: 30 images",
+    "2026-11-03 13:31 approve-pack: auto (--yes)",
+    "2026-11-03 13:31 export: farmagora-dc6563e0816f.zip"
+  ]
+}

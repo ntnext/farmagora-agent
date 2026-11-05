@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+{% include "_base.css.j2" %}
+.left { position: absolute; left: 0; top: 0; bottom: 0; width: 44%; background: var(--accent); color: #fff; padding: 80px 80px; display: flex; flex-direction: column; }
+.left .hl { font-size: 46px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; }
+.left .name { font-size: {{ 86 if (product.name|length) < 26 else 64 }}px; font-weight: 800; line-height: 1.04; margin-top: 44px; }
+.left .fmt { font-size: 42px; margin-top: 22px; font-weight: 500; }
+.left .myagora { font-size: 36px; padding: 14px 26px; margin-top: auto; align-self: flex-start; background: var(--navy); }
+.mid { position: absolute; left: 44%; width: 26%; top: 200px; bottom: 200px; display: flex; align-items: center; justify-content: center; }
+.mid img { max-width: 86%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 18px 30px rgba(1,81,118,.2)); }
+.right { position: absolute; left: {{ '70%' if photo else '50%' }}; right: 0; top: 0; bottom: 0; padding: 200px 80px 90px {{ 0 if photo else 80 }}px; display: flex; flex-direction: column; }
+.right .badge { font-size: 120px; padding: 10px 34px; align-self: flex-start; }
+.right .old { font-size: 58px; margin-top: 50px; }
+.right .price { font-size: {{ 165 if photo else 300 }}px; white-space: nowrap; }
+.right .valid { font-size: 36px; font-weight: 600; margin-top: auto; }
+.right .disc { margin-top: 14px; font-size: 24px; }
+.logo { position: absolute; right: 70px; top: 60px; height: 100px; left: auto; transform: none; }
+</style></head><body>
+<div class="left">
+  <div class="hl">{{ headline }}</div>
+  <div class="name">{{ product.name }}</div>
+  {% if product.format %}<div class="fmt">{{ product.format }}</div>{% endif %}
+  {% if product.my_agora_only %}<div class="myagora">SOLO CON MY AGORÀ</div>{% endif %}
+</div>
+{% if photo %}<div class="mid"><img src="{{ photo }}"></div>{% endif %}
+<div class="right">
+  {% if discount %}<span class="badge">{{ discount }}</span>{% endif %}
+  {% if old_price %}<div class="old">{{ old_price }}</div>{% endif %}
+  <div class="price">{{ price }}</div>
+  <div class="valid">{{ validity }}</div>
+  {% if disclaimer %}<div class="disc small">{{ disclaimer }}</div>{% endif %}
+</div>
+<img class="logo" src="{{ logo }}">
+</body></html>

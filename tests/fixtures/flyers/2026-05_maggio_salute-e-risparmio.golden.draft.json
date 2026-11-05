@@ -1,0 +1,1153 @@
+{
+  "flyer_id": "9173287f670e2efc9ba8bab005567ff1b9b9e46032d5e1f7f93582c874fa0e0d",
+  "title": "SALUTE E Risparmio",
+  "valid_from": "2026-05-01",
+  "valid_to": "2026-05-31",
+  "store_name": null,
+  "theme": {
+    "headline": "SALUTE E Risparmio",
+    "script_word": "Risparmio",
+    "accent_hex": "#60B030",
+    "cover_image_ref": "pages/page-01.png"
+  },
+  "products": [
+    {
+      "id": "fexallegra-spray-nasale-10-ml",
+      "name": "Fexallegra Spray nasale",
+      "brand": null,
+      "format": "10 ml",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "11.59",
+        "previous_eur": "15.49",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 2,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "fexallegra-10-compresse-rivestite-120-mg",
+      "name": "Fexallegra",
+      "brand": null,
+      "format": "10 compresse rivestite 120 mg",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "10.69",
+        "previous_eur": "14.29",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 2,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "iridina-due-collirio-0-5mg-ml-10ml",
+      "name": "Iridina Due Collirio",
+      "brand": null,
+      "format": "0,5mg/ml - 10ml",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "8.09",
+        "previous_eur": "10.79",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 2,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "irireact-collirio-10-contenitori-da-0-5ml",
+      "name": "Irireact Collirio",
+      "brand": null,
+      "format": "10 contenitori da 0,5ml",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "8.39",
+        "previous_eur": "10.49",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 2,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "irireact-collirio-10-ml",
+      "name": "Irireact Collirio",
+      "brand": null,
+      "format": "10 ml",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "8.39",
+        "previous_eur": "10.49",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 2,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "gr-farma-gocce-oculari-idratanti-e-rinfrescanti-10-ml",
+      "name": "Gr Farma Gocce oculari idratanti e rinfrescanti",
+      "brand": "Gr Farma",
+      "format": "0,2% - 10 ml",
+      "description": "soluzione idratante e rifrescante per gli occhi",
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "dispositivo_medico",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "6.29",
+        "previous_eur": "8.4",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 2,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "trosyd-soluzione-ungueale-28-12-ml",
+      "name": "Trosyd soluzione ungueale",
+      "brand": null,
+      "format": "28% - 12 ml",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "26.29",
+        "previous_eur": "32.9",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 3,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "canesten-crema-1-30-g",
+      "name": "Canesten Crema",
+      "brand": null,
+      "format": "1% - 30 g",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "13.39",
+        "previous_eur": "16.79",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 3,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "daflon-500mg-30-compresse-rivestite",
+      "name": "Daflon 500mg",
+      "brand": null,
+      "format": "30 compresse rivestite",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "14.39",
+        "previous_eur": "17.99",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 3,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "rinazina-spray-nasale-0-1-15-ml",
+      "name": "Rinazina Spray Nasale",
+      "brand": null,
+      "format": "0,1% - 15 ml",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "10.99",
+        "previous_eur": "12.99",
+        "discount_pct": 15
+      },
+      "price_group": null,
+      "page": 3,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "seki-sciroppo-3-54mg-ml-200ml",
+      "name": "Seki Sciroppo",
+      "brand": null,
+      "format": "3,54mg/ml - 200ml",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "9.99",
+        "previous_eur": "13.29",
+        "discount_pct": 24
+      },
+      "price_group": null,
+      "page": 3,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "fluimucil-mucolitico-600-mg-10-bustine",
+      "name": "Fluimucil Mucolitico 600 mg",
+      "brand": null,
+      "format": "10 bustine",
+      "description": null,
+      "flyer_category": "Rimedi Stagionali",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "9.99",
+        "previous_eur": "13.29",
+        "discount_pct": 24
+      },
+      "price_group": null,
+      "page": 3,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "vicks-zzzquil-natura-60-pastiglie",
+      "name": "Vicks Zzzquil natura",
+      "brand": "Vicks",
+      "format": "60 pastiglie",
+      "description": "Integratore a base di melatonina con camomilla, valeriana e lavanda per favorire il sonno",
+      "flyer_category": "Vitamine e Integratori",
+      "product_type": "integratore",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "22.39",
+        "previous_eur": "29.9",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 4,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "carnidyn-plus-20-bustine",
+      "name": "Carnidyn Plus",
+      "brand": null,
+      "format": "20 bustine",
+      "description": "Integratore alimentare per stanchezza fisica e mentale",
+      "flyer_category": "Vitamine e Integratori",
+      "product_type": "integratore",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "19.39",
+        "previous_eur": "24.29",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 4,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "supradyn-ricarica-pro-b12-10-flaconcini",
+      "name": "Supradyn Ricarica Pro B12",
+      "brand": "Supradyn",
+      "format": "10 flaconcini",
+      "description": "Integratore alimentare per la stanchezza fisica, mentale e per il sistema immunitario",
+      "flyer_category": "Vitamine e Integratori",
+      "product_type": "integratore",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "12.29",
+        "previous_eur": "14.5",
+        "discount_pct": 15
+      },
+      "price_group": null,
+      "page": 4,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "mag-ricarica-24-ore-24-bustine",
+      "name": "Mag Ricarica 24 ore",
+      "brand": "Mag",
+      "format": "24 bustine",
+      "description": "Integratore alimentare per stanchezza fisica e mentale",
+      "flyer_category": "Vitamine e Integratori",
+      "product_type": "integratore",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "15.19",
+        "previous_eur": "20.29",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 4,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "mag2-20-bustine-2-25-g",
+      "name": "Mag2",
+      "brand": "Mag",
+      "format": "20 bustine 2,25 g",
+      "description": null,
+      "flyer_category": "Vitamine e Integratori",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "14.79",
+        "previous_eur": "18.49",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 4,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "sidevit-d3-2000ui-30-compresse",
+      "name": "Sidevit D3 2000UI",
+      "brand": null,
+      "format": "30 compresse",
+      "description": "Integratore a base di Vitamina D3",
+      "flyer_category": "Vitamine e Integratori",
+      "product_type": "integratore",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "15.89",
+        "previous_eur": "19.9",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 4,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "gaviscon-bruciore-e-indigestione-24-bustine",
+      "name": "Gaviscon bruciore e indigestione",
+      "brand": "Gaviscon",
+      "format": "24 bustine",
+      "description": null,
+      "flyer_category": "Benessere Gastrointestinale",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "13.69",
+        "previous_eur": "18.29",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 5,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "gaviscon-intestino-gonfiore-e-meteorismo-30-capsule",
+      "name": "Gaviscon Intestino gonfiore e meteorismo",
+      "brand": "Gaviscon",
+      "format": "30 capsule",
+      "description": "Per il trattamento di gonfiore, meteorismo e dolore addominale",
+      "flyer_category": "Benessere Gastrointestinale",
+      "product_type": "dispositivo_medico",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "19.99",
+        "previous_eur": "24.99",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 5,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "gaviscon-intestino-stitichezza-30-capsule",
+      "name": "Gaviscon Intestino stitichezza",
+      "brand": "Gaviscon",
+      "format": "30 capsule",
+      "description": "Per il trattamento della stitichezza",
+      "flyer_category": "Benessere Gastrointestinale",
+      "product_type": "dispositivo_medico",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "19.99",
+        "previous_eur": "24.99",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 5,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "psyllogel-fibra-arance-rosse-20-bustine",
+      "name": "Psyllogel Fibra arance rosse",
+      "brand": "Psyllogel",
+      "format": "20 bustine",
+      "description": "Integratore alimentare per favorire la regolarità intestinale",
+      "flyer_category": "Benessere Gastrointestinale",
+      "product_type": "integratore",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "10.79",
+        "previous_eur": "13.49",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 5,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "imodium-12-compresse-2-mg",
+      "name": "Imodium",
+      "brand": null,
+      "format": "12 compresse 2 mg",
+      "description": null,
+      "flyer_category": "Benessere Gastrointestinale",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "13.59",
+        "previous_eur": "16.99",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 5,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "lactoflorene-plus-12-flaconcini",
+      "name": "Lactoflorene Plus",
+      "brand": null,
+      "format": "12 flaconcini",
+      "description": "Integratore alimentare a base di fermenti lattici attivi e vitamine del gruppo B",
+      "flyer_category": "Benessere Gastrointestinale",
+      "product_type": "integratore",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "12.69",
+        "previous_eur": "16.99",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 5,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "nurofenteen-limone-12-compresse-200-mg",
+      "name": "Nurofenteen limone",
+      "brand": "Nurofen",
+      "format": "12 compresse 200 mg",
+      "description": null,
+      "flyer_category": "Dolore",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "8.49",
+        "previous_eur": "11.29",
+        "discount_pct": 24
+      },
+      "price_group": null,
+      "page": 5,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "nurofen-400-mg-12-compresse-rivestite",
+      "name": "Nurofen 400 mg",
+      "brand": "Nurofen",
+      "format": "12 compresse rivestite",
+      "description": null,
+      "flyer_category": "Dolore",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "8.59",
+        "previous_eur": "11.49",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 5,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "nurofen-febbre-e-dolore-fragola-200mg-5ml-100ml",
+      "name": "Nurofen Febbre e Dolore fragola",
+      "brand": "Nurofen",
+      "format": "200mg/ 5ml - 100ml",
+      "description": null,
+      "flyer_category": "Dolore",
+      "product_type": "farmaco",
+      "is_medicine": true,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "15.69",
+        "previous_eur": "18.49",
+        "discount_pct": 15
+      },
+      "price_group": null,
+      "page": 5,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "cetilar-crema-50-ml",
+      "name": "Cetilar Crema",
+      "brand": "Cetilar",
+      "format": "50 ml",
+      "description": "crema per articolazioni, muscoli e tendini",
+      "flyer_category": "Dolore",
+      "product_type": "dispositivo_medico",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "17.79",
+        "previous_eur": "21.0",
+        "discount_pct": 15
+      },
+      "price_group": null,
+      "page": 5,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "elmex-bimbi-dentifricio-50-ml",
+      "name": "Elmex bimbi dentifricio",
+      "brand": "Elmex",
+      "format": "50 ml",
+      "description": "Per proteggere dalla carie dei denti da latte",
+      "flyer_category": "Bambino",
+      "product_type": "igiene",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "4.19",
+        "previous_eur": "5.29",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 6,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "mustela-pasta-cambio-100-ml",
+      "name": "Mustela Pasta cambio",
+      "brand": "Mustela",
+      "format": "100 ml",
+      "description": "Pasta formulata per agire contro irritazioni e arrossamenti",
+      "flyer_category": "Bambino",
+      "product_type": "cosmetico",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "9.19",
+        "previous_eur": "11.49",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 6,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "mustela-detergente-delicato-500-ml",
+      "name": "Mustela detergente delicato",
+      "brand": "Mustela",
+      "format": "500 ml",
+      "description": "per la detersione quotidiana",
+      "flyer_category": "Bambino",
+      "product_type": "igiene",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "13.79",
+        "previous_eur": "17.29",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 6,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "connettivinabio-plus-crema-25g",
+      "name": "Connettivinabio Plus Crema",
+      "brand": null,
+      "format": "25g",
+      "description": "per la riparazione e rigenerazione della pelle",
+      "flyer_category": "Medicazione",
+      "product_type": "dispositivo_medico",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "11.19",
+        "previous_eur": "14.99",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 6,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "scholl-penna-rimozione-calli-penna-da-4-g",
+      "name": "Scholl penna rimozione calli",
+      "brand": "Scholl",
+      "format": "Penna da 4 g",
+      "description": "Per rimuovere calli e duroni",
+      "flyer_category": "Medicazione",
+      "product_type": "dispositivo_medico",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "14.89",
+        "previous_eur": "19.9",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 6,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "scholl-penna-rimozione-verruche-penna-da-2-g",
+      "name": "Scholl penna rimozione verruche",
+      "brand": "Scholl",
+      "format": "Penna da 2 g",
+      "description": "Per rimuovere le verruche",
+      "flyer_category": "Medicazione",
+      "product_type": "dispositivo_medico",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "14.89",
+        "previous_eur": "19.9",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 6,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "meridol-dentifricio-bitubo-2-pezzi-da-75-ml",
+      "name": "Meridol dentifricio bitubo",
+      "brand": "Meridol",
+      "format": "2 pezzi da 75 ml",
+      "description": "Per proteggere le gengive",
+      "flyer_category": "Igiene personale",
+      "product_type": "igiene",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "6.79",
+        "previous_eur": "8.49",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 6,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "elmex-sensitive-dentitrificio-bitubo-2-tubi-da-75-ml",
+      "name": "Elmex sensitive dentitrificio bitubo",
+      "brand": "Elmex",
+      "format": "2 tubi da 75 ml",
+      "description": "Dentifricio tripla azione per denti sensibili",
+      "flyer_category": "Igiene personale",
+      "product_type": "igiene",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "7.19",
+        "previous_eur": "8.99",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 6,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "dercos-shampoo-antiforfora-200-ml",
+      "name": "Dercos shampoo antiforfora",
+      "brand": "Dercos",
+      "format": "200 ml",
+      "description": "Shampoo antiforfora per capelli da normali a grassi",
+      "flyer_category": "Igiene personale",
+      "product_type": "igiene",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "16.09",
+        "previous_eur": "21.49",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 7,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "dercos-psolution-shampoo-trattamento-cheratoriduttore-200-ml",
+      "name": "Dercos Psolution shampoo trattamento cheratoriduttore",
+      "brand": "Dercos",
+      "format": "200 ml",
+      "description": "Shampoo per cuoio capelluto tendente a psoriasi",
+      "flyer_category": "Igiene personale",
+      "product_type": "igiene",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "17.19",
+        "previous_eur": "21.5",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 7,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "dercos-shampoo-energizzante-200-ml",
+      "name": "Dercos shampoo energizzante",
+      "brand": "Dercos",
+      "format": "200 ml",
+      "description": "Shampoo complemento anti-caduta dei capelli",
+      "flyer_category": "Igiene personale",
+      "product_type": "igiene",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "11.99",
+        "previous_eur": "14.94",
+        "discount_pct": 19
+      },
+      "price_group": null,
+      "page": 7,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "saugella-dermoliquido-500-ml",
+      "name": "Saugella dermoliquido",
+      "brand": "Saugella",
+      "format": "500 ml",
+      "description": "Detergente per l’igiene intima quotidiana",
+      "flyer_category": "Igiene personale",
+      "product_type": "igiene",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "10.49",
+        "previous_eur": "13.99",
+        "discount_pct": 25
+      },
+      "price_group": null,
+      "page": 7,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "saugella-attiva-250-ml",
+      "name": "Saugella attiva",
+      "brand": "Saugella",
+      "format": "250 ml",
+      "description": "Detergente per l’igiene intima",
+      "flyer_category": "Igiene personale",
+      "product_type": "igiene",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "9.99",
+        "previous_eur": "12.49",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 7,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "aveeno-bagnodoccia-500-ml",
+      "name": "Aveeno bagnodoccia",
+      "brand": "Aveeno",
+      "format": "500 ml",
+      "description": "Per nutrire la pelle secca",
+      "flyer_category": "Igiene personale",
+      "product_type": "igiene",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "13.99",
+        "previous_eur": "17.49",
+        "discount_pct": 20
+      },
+      "price_group": null,
+      "page": 7,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "nuxe-huile-prodigieuse-olio-idratante-oro-100-ml",
+      "name": "Nuxe Huile Prodigieuse olio idratante oro",
+      "brand": "Nuxe",
+      "format": "100 ml",
+      "description": "Per nutrire, lenire, illuminare la pelle e i capelli",
+      "flyer_category": "Bellezza del corpo e del viso",
+      "product_type": "cosmetico",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "29.9",
+        "previous_eur": "46.9",
+        "discount_pct": 36
+      },
+      "price_group": null,
+      "page": 7,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    },
+    {
+      "id": "nuxe-huile-prodigieuse-olio-secco-100-ml",
+      "name": "Nuxe Huile Prodigieuse olio secco",
+      "brand": "Nuxe",
+      "format": "100 ml",
+      "description": "Per nutrire e riparare la pelle e i capelli",
+      "flyer_category": "Bellezza del corpo e del viso",
+      "product_type": "cosmetico",
+      "is_medicine": false,
+      "my_agora_only": false,
+      "private_label": false,
+      "hero": false,
+      "price": {
+        "current_eur": "26.9",
+        "previous_eur": "41.9",
+        "discount_pct": 35
+      },
+      "price_group": null,
+      "page": 7,
+      "bbox": null,
+      "needs_review": false,
+      "review_notes": []
+    }
+  ],
+  "promotions": [
+    {
+      "id": "promo-veterinari-30",
+      "kind": "category_discount",
+      "title": "CI SIAMO ANCHE NOI - Sconti del 30% su prodotti veterinari e antiparassitari",
+      "scope": "prodotti veterinari e antiparassitari",
+      "tiers": [
+        {
+          "qty": null,
+          "value": "30%"
+        }
+      ],
+      "page": 1
+    },
+    {
+      "id": "promo-natura-mix-advanced",
+      "kind": "quantity_tier",
+      "title": "Natura Mix Advanced Multinaturale",
+      "scope": "Linea Natura Mix Advanced",
+      "tiers": [
+        {
+          "qty": 1,
+          "value": "-5€"
+        },
+        {
+          "qty": 2,
+          "value": "-15€"
+        },
+        {
+          "qty": 3,
+          "value": "-25€"
+        }
+      ],
+      "page": 4
+    },
+    {
+      "id": "promo-cerave-detersione-20",
+      "kind": "line_discount",
+      "title": "Cerave linea detersione",
+      "scope": "Linea detersione Cerave",
+      "tiers": [
+        {
+          "qty": 1,
+          "value": "-20%"
+        }
+      ],
+      "page": 8
+    },
+    {
+      "id": "promo-la-roche-posay-mela-b3-20",
+      "kind": "line_discount",
+      "title": "La Roche-Posay linea Mela B3",
+      "scope": "Linea Mela B3 La Roche-Posay",
+      "tiers": [
+        {
+          "qty": 1,
+          "value": "-20%"
+        }
+      ],
+      "page": 8
+    },
+    {
+      "id": "promo-la-roche-posay-lipikar-pulizia-viso-30",
+      "kind": "line_discount",
+      "title": "La Roche-Posay linee Lipikar o pulizia viso",
+      "scope": "Linee Lipikar o pulizia viso La Roche-Posay",
+      "tiers": [
+        {
+          "qty": 1,
+          "value": "-30%"
+        }
+      ],
+      "page": 8
+    },
+    {
+      "id": "promo-prodotti-solari",
+      "kind": "quantity_tier",
+      "title": "Goditi il primo sole - Prodotti solari",
+      "scope": "Prodotti solari",
+      "tiers": [
+        {
+          "qty": 2,
+          "value": "-20%"
+        },
+        {
+          "qty": 3,
+          "value": "-30%"
+        }
+      ],
+      "page": 8
+    }
+  ],
+  "services": [
+    {
+      "id": "service-cuore-in-salute",
+      "title": "CUORE IN SALUTE",
+      "items": [
+        "Misurazione della pressione",
+        "Pannello lipidico: (colesterolo totale, HDL, LDL e trigliceridi)",
+        "Glicemia",
+        "Elettrocardiogramma"
+      ],
+      "price_eur": "35.0",
+      "valid_from": "2026-05-01",
+      "valid_to": "2026-06-30",
+      "booking": null,
+      "page": 8
+    }
+  ],
+  "loyalty": {
+    "program": "My Agorà",
+    "reward_eur": "3.0",
+    "every_eur": "30.0",
+    "exclusions": [
+      "tutti i farmaci",
+      "i latti 1",
+      "i prodotti rimborsabili dal SSN"
+    ],
+    "call_to_action": "Richiedi subito la tua carta My Agorà in farmacia o sul nostro sito web."
+  },
+  "app_promo": false,
+  "legal_footer": [
+    "Per un corretto uso del farmaco leggere attentamente tutte le informazioni presenti nel libretto illustrativo.",
+    "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+  ],
+  "source_pages": 8
+}

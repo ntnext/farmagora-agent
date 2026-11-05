@@ -1,0 +1,16 @@
+# EUR per 1M tokens, per model. Used for cost tracking and the cost guard (`max_cost_eur_per_run`).
+# model_id: {input: 0.00, output: 0.00}   output includes "thinking" tokens where the vendor bills them.
+# Source: https://ai.google.dev/gemini-api/docs/pricing (paid tier, checked 4 Nov 2026). Vendor prices are in USD;
+# they are entered here 1:1 as EUR (slight overestimate, safe for the cost guard). Update when prices change.
+# gemini-3.5-flash is no longer listed: priced like the listed previous-generation Flash (gemini-3.6-flash).
+# Prices for 3.8 Flash double from 1 Jan 2027 (1.50 / 7.50).
+gemini-3.5-flash:      {input: 0.75, output: 3.75}
+gemini-3.6-flash:      {input: 0.75, output: 3.75}
+gemini-3.8-flash:      {input: 0.75, output: 3.75}
+gemini-3.5-flash-lite: {input: 0.30, output: 2.50}
+gemini-3.1-pro-preview: {input: 2.00, output: 12.00}   # prompts <= 200k tokens
+rules-v1:              {input: 0, output: 0}            # offline provider
+# Groq (https://console.groq.com/docs/models, checked 4 Nov 2026), USD entered 1:1 as EUR.
+qwen/qwen3.8-27b:     {input: 0.80, output: 4.00}
+openai/gpt-oss-120b:  {input: 0.15, output: 0.60}
+openai/gpt-oss-20b:   {input: 0.075, output: 0.30}

@@ -1,0 +1,33 @@
+# Compliance rules — STARTER. Confirm every rule and wording with the pharmacy owner before go-live.
+legal_footer_default:   # used only if the flyer footer cannot be extracted
+  - "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+  - "Per un corretto uso del farmaco leggere attentamente tutte le informazioni presenti nel libretto illustrativo."
+medicines:
+  manual_review: true
+  mandatory_warning: "Per un corretto uso del farmaco leggere attentamente tutte le informazioni presenti nel libretto illustrativo."
+  forbid_in: []          # e.g. ["stories"] if the owner prefers no medicine stories
+  # Brands whose flyer products are (almost) always OTC medicines. A product whose name STARTS with one of
+  # these words but comes back as not-a-medicine is BLOCKING at Gate 1: check the medicine symbol on the card.
+  # Keep out brands with many devices/supplements in their range (e.g. Bisolvon, Gaviscon, Fluimucil).
+  known_brands: [Enterogermina, Actigrip, Rinazina, Rinaadvance, Aspi Gola, Benagol, Tachipirina, Tachiflu,
+                 Nurofen, Bronchenolo, Seki, Pevaryl, Maalox, Flector, Muscoridol, Moment, Proctosedyl,
+                 Voltaren, Oki, Aspirina, Froben, Buscopan, Imodium, Brufen, Lasonil, Zerinol, Vivin C]
+  # Product names (regex, case-insensitive) confirmed on the card as NOT medicines despite a known brand,
+  # e.g. "Enterogermina Gonfiore". Add only after checking the printed card.
+  not_medicine_exceptions: []
+claims:
+  only_verbatim_from_flyer: true
+  forbidden_patterns:
+    - "\\bcura\\b"
+    - "\\bguarisc"
+    - "\\belimina\\b"
+    - "miracolos"
+    - "senza effetti collaterali"
+    - "garantit"
+    - "\\bprevien"
+    - "efficace al 100"
+loyalty:
+  label_card_only_prices: "Solo con carta My Agorà"
+  always_repeat_exclusions: true
+prices_and_dates:
+  llm_may_write_literals: false   # copy must use {price:<id>}, {old_price:<id>}, {discount:<id>}, {valid_to}

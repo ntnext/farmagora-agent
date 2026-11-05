@@ -1,0 +1,43 @@
+[project]
+name = "flyer-agent"
+version = "0.1.0"
+description = "Farmagorà Flyer-to-Everything agent: flyer PDF -> social posts, stories, in-store screens"
+requires-python = ">=3.12"
+dependencies = [
+  "pydantic>=2.7",
+  "typer>=0.12",
+  "jinja2>=3.1",
+  "pyyaml>=6",
+  "pypdfium2>=4.30",
+  "pillow>=10",
+  "playwright>=1.45",
+  "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.40"]
+openai = ["openai>=1.40"]
+gemini = ["google-genai>=1.0"]
+all = ["anthropic>=0.40", "openai>=1.40", "google-genai>=1.0", "google-api-python-client>=2.100", "google-auth-oauthlib>=1.2", "google-auth-httplib2>=0.2"]
+drive = ["google-api-python-client>=2.100", "google-auth-oauthlib>=1.2", "google-auth-httplib2>=0.2"]
+dev = ["pytest>=8", "ruff>=0.5", "mypy>=1.10"]
+
+[project.scripts]
+flyer = "flyer_agent.cli:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+ignore = ["UP046", "UP047"]

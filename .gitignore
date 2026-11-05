@@ -1,0 +1,12 @@
+.env
+runs/
+.venv/
+__pycache__/
+*.egg-info/
+.DS_Store
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+farmagora-flyer-agent.zip
+credentials.json
+.secrets/

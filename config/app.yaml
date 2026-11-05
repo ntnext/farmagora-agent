@@ -1,0 +1,54 @@
+# Provider + model per task. Change one line to switch LLM; no code changes needed.
+# Providers: offline | anthropic | openai | gemini | groq | openai_compatible
+#  - offline: no API key. `extract` replays the hand-checked golden file of a fixture flyer;
+#    copy tasks use rule-based Italian templates. Use it to demo and test the pipeline.
+#  - for a NEW flyer, set `extract` to a real vision model (examples below; verify current model ids).
+llm:
+  tasks:
+    # Default since 4 Nov 2026: Gemini reads the flyer (1 call per flyer), Groq writes the copy (fast, cheap).
+    # No-key demo: `flyer --provider offline run <fixture pdf> --yes`.
+    extract:
+      provider: gemini            # vision + PDF; Groq's vision model needs the paid Dev tier (7k tokens/min on free)
+      model: gemini-3.8-flash
+      temperature: 0
+    copy_social:
+      provider: groq
+      model: openai/gpt-oss-120b
+      temperature: 0.7
+      batch_size: 6   # Groq free tier: 8000 tokens per minute, all 18 posts in one request is too big
+    copy_screens:
+      provider: groq
+      model: openai/gpt-oss-120b
+      temperature: 0.7
+  providers:
+    offline:
+      fixtures_dir: tests/fixtures/flyers
+    anthropic:
+      api_key_env: ANTHROPIC_API_KEY
+    openai:
+      api_key_env: OPENAI_API_KEY
+    gemini:
+      api_key_env: GEMINI_API_KEY
+    groq:                         # OpenAI-compatible; vision model qwen/qwen3.8-27b reads max 3 images per request
+      kind: openai_compatible
+      base_url: https://api.groq.com/openai/v1
+      api_key_env: GROQ_API_KEY
+      image_input: true
+      max_images: 3               # the flyer is read in batches of 3 pages and merged
+    openai_compatible:            # Mistral, Groq, Together, Ollama, vLLM...
+      api_key_env: OPENAI_COMPATIBLE_API_KEY
+      base_url: http://localhost:11434/v1
+      image_input: true
+max_cost_eur_per_run: 3.00
+drive:
+  # mode "api": work on Google Drive online through the Drive API (no Drive desktop app; README "Google Drive").
+  # mode "sync": a folder synced to this Mac by Google Drive for desktop (watch_dir below).
+  mode: api
+  api_folder: "Volantini Farmagorà"     # folder name in Il mio Drive
+  credentials: credentials.json         # OAuth client "Desktop app" (secret, gitignored)
+  token: .secrets/google-token.json     # saved after the first browser sign-in (secret, gitignored)
+  # Shared folder synced by Google Drive for desktop: one subfolder per flyer (PLAN.md §14).
+  # e.g. ~/Library/CloudStorage/GoogleDrive-<account>/My Drive/Volantini Farmagorà
+  watch_dir: "~/Library/CloudStorage/GoogleDrive-o.chatbi@newtargetweb.it/Il mio Drive/Volantini Farmagorà"
+paths:
+  runs: runs

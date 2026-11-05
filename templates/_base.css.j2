@@ -1,0 +1,17 @@
+@font-face { font-family: "Brand Sans"; src: url("{{ root }}/assets/fonts/Montserrat.ttf"); font-weight: 100 900; }
+@font-face { font-family: "Brand Script"; src: url("{{ root }}/assets/fonts/Caveat.ttf"); font-weight: 400 700; }
+:root { --navy: {{ c.navy }}; --yellow: {{ c.yellow }}; --tint: {{ c.navy_tint }}; --accent: {{ accent }}; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: {{ w }}px; height: {{ h }}px; overflow: hidden; }
+body { font-family: "Brand Sans", "Poppins", sans-serif; color: var(--navy); background: #fff; position: relative; }
+.script { font-family: "Brand Script", cursive; font-weight: 700; }
+.bracket { position: absolute; width: {{ (w * 0.11)|int }}px; height: {{ (w * 0.11)|int }}px; }
+.bracket.tl { top: {{ (w*0.05)|int }}px; left: {{ (w*0.05)|int }}px; border-top: {{ (w*0.028)|int }}px solid var(--navy); border-left: {{ (w*0.028)|int }}px solid var(--navy); }
+.bracket.br { bottom: {{ (w*0.05)|int }}px; right: {{ (w*0.05)|int }}px; border-bottom: {{ (w*0.028)|int }}px solid var(--navy); border-right: {{ (w*0.028)|int }}px solid var(--navy); }
+.logo { position: absolute; left: 50%; transform: translateX(-50%); }
+.small { font-size: {{ (w*0.0165)|int }}px; line-height: 1.3; color: var(--navy); opacity: .85; }
+.badge { background: var(--navy); color: #fff; font-weight: 800; display: inline-block; }
+.old { text-decoration: line-through; opacity: .7; font-weight: 500; }
+.price { font-family: "Brand Script", cursive; font-weight: 700; font-style: italic; line-height: .9; }
+.chip { background: var(--yellow); color: var(--navy); font-weight: 700; display: inline-block; }
+.myagora { background: var(--navy); color: var(--yellow); font-weight: 800; display: inline-block; transform: rotate(-6deg); }

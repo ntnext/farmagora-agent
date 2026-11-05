@@ -1,0 +1,695 @@
+{
+  "flyer_id": "dc6563e0816fca5da18dee22e6be0fc0430515fdce4d92ac6754d7b31a0343df",
+  "posts": [
+    {
+      "spec": {
+        "id": "post-01",
+        "kind": "post",
+        "topic": "flyer_teaser",
+        "product_ids": [],
+        "ref_ids": [],
+        "publish_date": "2026-10-01",
+        "brief": "Annuncia il nuovo volantino e invita a sfogliarlo online o in farmacia."
+      },
+      "copy": {
+        "id": "post-01",
+        "caption": "📖 Hai già visto il nostro nuovo volantino? Sfoglialo comodamente su {website} o direttamente in farmacia e scopri le promozioni che abbiamo selezionato per te, valide fino al {valid_to}!",
+        "image_headline": "SFOGLIA IL",
+        "image_subline": "volantino",
+        "hashtags": [
+          "#Farmagorà",
+          "#volantino"
+        ]
+      },
+      "caption_final": "📖 Hai già visto il nostro nuovo volantino? Sfoglialo comodamente su www.farmagora.it o direttamente in farmacia e scopri le promozioni che abbiamo selezionato per te, valide fino al 15 novembre!",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/social/post-01.png"
+    },
+    {
+      "spec": {
+        "id": "post-02",
+        "kind": "post",
+        "topic": "service",
+        "product_ids": [],
+        "ref_ids": [
+          "cuore-in-movimento"
+        ],
+        "publish_date": "2026-10-06",
+        "brief": "Servizio in farmacia: Cuore in movimento."
+      },
+      "copy": {
+        "id": "post-02",
+        "caption": "❤️ Cuore in movimento da Farmagorà: Elettrocardiogramma, Pannello lipidico (colesterolo totale, HDL, LDL e trigliceridi), Misurazione della pressione a soli {service_price:cuore-in-movimento} fino al {service_valid_to:cuore-in-movimento}. Chiedi informazioni in farmacia.",
+        "image_headline": "Cuore in movimento",
+        "image_subline": null,
+        "hashtags": [
+          "#Farmagorà",
+          "#servizi"
+        ]
+      },
+      "caption_final": "❤️ Cuore in movimento da Farmagorà: Elettrocardiogramma, Pannello lipidico (colesterolo totale, HDL, LDL e trigliceridi), Misurazione della pressione a soli €29 fino al 31 ottobre. Chiedi informazioni in farmacia.",
+      "disclaimers": [],
+      "image_path": "out/social/post-02.png"
+    },
+    {
+      "spec": {
+        "id": "post-03",
+        "kind": "post",
+        "topic": "product",
+        "product_ids": [
+          "enterogermina-4-miliardi-20-flaconcini-da-5-ml"
+        ],
+        "ref_ids": [],
+        "publish_date": "2026-10-07",
+        "brief": "Prodotto imperdibile del volantino: Enterogermina 4 Miliardi."
+      },
+      "copy": {
+        "id": "post-03",
+        "caption": "⭐ In offerta questo mese da Farmagorà: Enterogermina 4 Miliardi (20 flaconcini da 5 ml) a {price:enterogermina-4-miliardi-20-flaconcini-da-5-ml} invece di {old_price:enterogermina-4-miliardi-20-flaconcini-da-5-ml}. Ti aspettiamo in farmacia fino al {valid_to}: chiedi consiglio al tuo farmacista!",
+        "image_headline": "Enterogermina 4 Miliardi",
+        "image_subline": "20 flaconcini da 5 ml",
+        "hashtags": [
+          "#Farmagorà",
+          "#offerte"
+        ]
+      },
+      "caption_final": "⭐ In offerta questo mese da Farmagorà: Enterogermina 4 Miliardi (20 flaconcini da 5 ml) a €19,79 invece di €28,29. Ti aspettiamo in farmacia fino al 15 novembre: chiedi consiglio al tuo farmacista!",
+      "disclaimers": [
+        "Per un corretto uso del farmaco leggere attentamente tutte le informazioni presenti nel libretto illustrativo.",
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/social/post-03.png"
+    },
+    {
+      "spec": {
+        "id": "post-04",
+        "kind": "post",
+        "topic": "product",
+        "product_ids": [
+          "actigrip-giorno-e-notte-12-4-compresse"
+        ],
+        "ref_ids": [],
+        "publish_date": "2026-10-10",
+        "brief": "Prodotto imperdibile del volantino: Actigrip Giorno&Notte."
+      },
+      "copy": {
+        "id": "post-04",
+        "caption": "⭐ In offerta questo mese da Farmagorà: Actigrip Giorno&Notte (12 + 4 compresse) a {price:actigrip-giorno-e-notte-12-4-compresse} invece di {old_price:actigrip-giorno-e-notte-12-4-compresse}. Ti aspettiamo in farmacia fino al {valid_to}: chiedi consiglio al tuo farmacista!",
+        "image_headline": "Actigrip Giorno&Notte",
+        "image_subline": "12 + 4 compresse",
+        "hashtags": [
+          "#Farmagorà",
+          "#offerte"
+        ]
+      },
+      "caption_final": "⭐ In offerta questo mese da Farmagorà: Actigrip Giorno&Notte (12 + 4 compresse) a €11,39 invece di €15,79. Ti aspettiamo in farmacia fino al 15 novembre: chiedi consiglio al tuo farmacista!",
+      "disclaimers": [
+        "Per un corretto uso del farmaco leggere attentamente tutte le informazioni presenti nel libretto illustrativo.",
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/social/post-04.png"
+    },
+    {
+      "spec": {
+        "id": "post-05",
+        "kind": "post",
+        "topic": "product",
+        "product_ids": [
+          "swisse-pelle-capelli-unghie-60-compresse"
+        ],
+        "ref_ids": [],
+        "publish_date": "2026-10-14",
+        "brief": "Prodotto imperdibile del volantino: Swisse Pelle Capelli Unghie."
+      },
+      "copy": {
+        "id": "post-05",
+        "caption": "⭐ In offerta questo mese da Farmagorà: Swisse Pelle Capelli Unghie (60 compresse) a {price:swisse-pelle-capelli-unghie-60-compresse} invece di {old_price:swisse-pelle-capelli-unghie-60-compresse}. Ti aspettiamo in farmacia fino al {valid_to}: chiedi consiglio al tuo farmacista!",
+        "image_headline": "Swisse Pelle Capelli Unghie",
+        "image_subline": "60 compresse",
+        "hashtags": [
+          "#Farmagorà",
+          "#offerte"
+        ]
+      },
+      "caption_final": "⭐ In offerta questo mese da Farmagorà: Swisse Pelle Capelli Unghie (60 compresse) a €24,49 invece di €32,90. Ti aspettiamo in farmacia fino al 15 novembre: chiedi consiglio al tuo farmacista!",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/social/post-05.png"
+    },
+    {
+      "spec": {
+        "id": "post-06",
+        "kind": "post",
+        "topic": "service",
+        "product_ids": [],
+        "ref_ids": [
+          "vaccinazione-antinfluenzale"
+        ],
+        "publish_date": "2026-10-15",
+        "brief": "Servizio in farmacia: Il tuo farmacista ti vaccina."
+      },
+      "copy": {
+        "id": "post-06",
+        "caption": "❤️ Il tuo farmacista ti vaccina da Farmagorà: Vaccinazioni antinfluenzali. Prenota sulla nostra agenda online o direttamente in farmacia.",
+        "image_headline": "Il tuo farmacista ti vaccina",
+        "image_subline": null,
+        "hashtags": [
+          "#Farmagorà",
+          "#servizi"
+        ]
+      },
+      "caption_final": "❤️ Il tuo farmacista ti vaccina da Farmagorà: Vaccinazioni antinfluenzali. Prenota sulla nostra agenda online o direttamente in farmacia.",
+      "disclaimers": [],
+      "image_path": "out/social/post-06.png"
+    },
+    {
+      "spec": {
+        "id": "post-07",
+        "kind": "post",
+        "topic": "promotion",
+        "product_ids": [],
+        "ref_ids": [
+          "ci-siamo-anche-noi"
+        ],
+        "publish_date": "2026-10-17",
+        "brief": "Promozione: Ci siamo anche noi (una selezione di prodotti per i tuoi amici a quattro zampe)."
+      },
+      "copy": {
+        "id": "post-07",
+        "caption": "🐾 Ci siamo anche noi! {promo:ci-siamo-anche-noi} su una selezione di prodotti per i tuoi amici a quattro zampe. Ti aspettiamo in farmacia!",
+        "image_headline": "Ci siamo anche noi",
+        "image_subline": "una selezione di prodotti per i tuoi amici a quattro zampe",
+        "hashtags": [
+          "#Farmagorà"
+        ]
+      },
+      "caption_final": "🐾 Ci siamo anche noi! -10% su una selezione di prodotti per i tuoi amici a quattro zampe. Ti aspettiamo in farmacia!",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/social/post-07.png"
+    },
+    {
+      "spec": {
+        "id": "post-08",
+        "kind": "post",
+        "topic": "product",
+        "product_ids": [
+          "winter-cerotto-stop-dol-arnica-vbe-e-artiglio-del-diavolo-1-pezzo"
+        ],
+        "ref_ids": [],
+        "publish_date": "2026-10-18",
+        "brief": "Prodotto imperdibile del volantino: Winter Cerotto Stop Dol Arnica + VBE e Artiglio del diavolo."
+      },
+      "copy": {
+        "id": "post-08",
+        "caption": "⭐ In offerta questo mese da Farmagorà: Winter Cerotto Stop Dol Arnica + VBE e Artiglio del diavolo (1 pezzo) a {price:winter-cerotto-stop-dol-arnica-vbe-e-artiglio-del-diavolo-1-pezzo} invece di {old_price:winter-cerotto-stop-dol-arnica-vbe-e-artiglio-del-diavolo-1-pezzo}. Ti aspettiamo in farmacia fino al {valid_to}: chiedi consiglio al tuo farmacista!",
+        "image_headline": "Winter Cerotto Stop Dol Arnica + VBE e Artiglio del diavolo",
+        "image_subline": "1 pezzo",
+        "hashtags": [
+          "#Farmagorà",
+          "#offerte"
+        ]
+      },
+      "caption_final": "⭐ In offerta questo mese da Farmagorà: Winter Cerotto Stop Dol Arnica + VBE e Artiglio del diavolo (1 pezzo) a €1,99 invece di €3,69. Ti aspettiamo in farmacia fino al 15 novembre: chiedi consiglio al tuo farmacista!",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/social/post-08.png"
+    },
+    {
+      "spec": {
+        "id": "post-09",
+        "kind": "post",
+        "topic": "loyalty",
+        "product_ids": [],
+        "ref_ids": [],
+        "publish_date": "2026-10-23",
+        "brief": "Ricorda il vantaggio della carta My Agorà e invita a richiederla."
+      },
+      "copy": {
+        "id": "post-09",
+        "caption": "💳 Lo sapevi? Con la carta My Agorà hai {loyalty}. Richiedila in farmacia o su {website}!",
+        "image_headline": "Carta My Agorà",
+        "image_subline": "Richiedila in farmacia o sul nostro sito",
+        "hashtags": [
+          "#Farmagorà",
+          "#MyAgorà"
+        ]
+      },
+      "caption_final": "💳 Lo sapevi? Con la carta My Agorà hai €3 in regalo ogni €30 di spesa. Richiedila in farmacia o su www.farmagora.it!",
+      "disclaimers": [],
+      "image_path": "out/social/post-09.png"
+    },
+    {
+      "spec": {
+        "id": "post-10",
+        "kind": "post",
+        "topic": "service",
+        "product_ids": [],
+        "ref_ids": [
+          "servizi-farmagora"
+        ],
+        "publish_date": "2026-10-24",
+        "brief": "Servizio in farmacia: Scopri tutti i servizi Farmagorà."
+      },
+      "copy": {
+        "id": "post-10",
+        "caption": "❤️ Scopri tutti i servizi Farmagorà: ECG, Holter pressorio, Holter cardiaco, Test delle intolleranze alimentari e inalanti. Chiedi informazioni in farmacia.",
+        "image_headline": "Scopri tutti i servizi Farmagorà",
+        "image_subline": null,
+        "hashtags": [
+          "#Farmagorà",
+          "#servizi"
+        ]
+      },
+      "caption_final": "❤️ Scopri tutti i servizi Farmagorà: ECG, Holter pressorio, Holter cardiaco, Test delle intolleranze alimentari e inalanti. Chiedi informazioni in farmacia.",
+      "disclaimers": [],
+      "image_path": "out/social/post-10.png"
+    },
+    {
+      "spec": {
+        "id": "post-11",
+        "kind": "post",
+        "topic": "product",
+        "product_ids": [
+          "isypan-probiotik-24-bustine"
+        ],
+        "ref_ids": [],
+        "publish_date": "2026-10-27",
+        "brief": "Offerta del volantino: Isypan Probiotik."
+      },
+      "copy": {
+        "id": "post-11",
+        "caption": "🌿 In offerta questo mese da Farmagorà: Isypan Probiotik (24 bustine) a {price:isypan-probiotik-24-bustine} invece di {old_price:isypan-probiotik-24-bustine}. Ti aspettiamo in farmacia fino al {valid_to}: chiedi consiglio al tuo farmacista!",
+        "image_headline": "Isypan Probiotik",
+        "image_subline": "24 bustine",
+        "hashtags": [
+          "#Farmagorà",
+          "#offerte"
+        ]
+      },
+      "caption_final": "🌿 In offerta questo mese da Farmagorà: Isypan Probiotik (24 bustine) a €14,99 invece di €25,90. Ti aspettiamo in farmacia fino al 15 novembre: chiedi consiglio al tuo farmacista!",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/social/post-11.png"
+    },
+    {
+      "spec": {
+        "id": "post-12",
+        "kind": "post",
+        "topic": "last_call",
+        "product_ids": [],
+        "ref_ids": [],
+        "publish_date": "2026-11-12",
+        "brief": "Ultimi giorni per approfittare delle offerte del volantino."
+      },
+      "copy": {
+        "id": "post-12",
+        "caption": "⏰ Ultimi giorni! Le offerte del volantino sono valide fino al {valid_to}: passa in farmacia o sfoglialo su {website}.",
+        "image_headline": "ULTIMI GIORNI",
+        "image_subline": "fino al {valid_to}",
+        "hashtags": [
+          "#Farmagorà"
+        ]
+      },
+      "caption_final": "⏰ Ultimi giorni! Le offerte del volantino sono valide fino al 15 novembre: passa in farmacia o sfoglialo su www.farmagora.it.",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/social/post-12.png"
+    },
+    {
+      "spec": {
+        "id": "story-01",
+        "kind": "story",
+        "topic": "flyer_teaser",
+        "product_ids": [],
+        "ref_ids": [],
+        "publish_date": "2026-10-01",
+        "brief": "Story: è uscito il nuovo volantino."
+      },
+      "copy": {
+        "id": "story-01",
+        "caption": "📖 È uscito il nuovo volantino! Sfoglialo su {website}.",
+        "image_headline": "SFOGLIA IL",
+        "image_subline": "volantino",
+        "hashtags": [
+          "#Farmagorà",
+          "#volantino"
+        ]
+      },
+      "caption_final": "📖 È uscito il nuovo volantino! Sfoglialo su www.farmagora.it.",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/stories/story-01.png"
+    },
+    {
+      "spec": {
+        "id": "story-02",
+        "kind": "story",
+        "topic": "product",
+        "product_ids": [
+          "winter-cerotto-stop-dol-arnica-vbe-e-artiglio-del-diavolo-1-pezzo"
+        ],
+        "ref_ids": [],
+        "publish_date": "2026-10-08",
+        "brief": "Story offerta: Winter Cerotto Stop Dol Arnica + VBE e Artiglio del diavolo."
+      },
+      "copy": {
+        "id": "story-02",
+        "caption": "⭐ Winter Cerotto Stop Dol Arnica + VBE e Artiglio del diavolo: {discount:winter-cerotto-stop-dol-arnica-vbe-e-artiglio-del-diavolo-1-pezzo}, fino al {valid_to}.",
+        "image_headline": "Winter Cerotto Stop Dol Arnica + VBE e Artiglio del diavolo",
+        "image_subline": "1 pezzo",
+        "hashtags": [
+          "#Farmagorà",
+          "#offerte"
+        ]
+      },
+      "caption_final": "⭐ Winter Cerotto Stop Dol Arnica + VBE e Artiglio del diavolo: -46%, fino al 15 novembre.",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/stories/story-02.png"
+    },
+    {
+      "spec": {
+        "id": "story-03",
+        "kind": "story",
+        "topic": "product",
+        "product_ids": [
+          "isypan-probiotik-24-bustine"
+        ],
+        "ref_ids": [],
+        "publish_date": "2026-10-15",
+        "brief": "Story offerta: Isypan Probiotik."
+      },
+      "copy": {
+        "id": "story-03",
+        "caption": "🌿 Isypan Probiotik: {discount:isypan-probiotik-24-bustine}, fino al {valid_to}.",
+        "image_headline": "Isypan Probiotik",
+        "image_subline": "24 bustine",
+        "hashtags": [
+          "#Farmagorà",
+          "#offerte"
+        ]
+      },
+      "caption_final": "🌿 Isypan Probiotik: -42%, fino al 15 novembre.",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/stories/story-03.png"
+    },
+    {
+      "spec": {
+        "id": "story-04",
+        "kind": "story",
+        "topic": "product",
+        "product_ids": [
+          "dr-theiss-arnica-gel-forte-100-ml"
+        ],
+        "ref_ids": [],
+        "publish_date": "2026-10-21",
+        "brief": "Story offerta: Dr. Theiss Arnica Gel Forte."
+      },
+      "copy": {
+        "id": "story-04",
+        "caption": "💪 Dr. Theiss Arnica Gel Forte: {discount:dr-theiss-arnica-gel-forte-100-ml} con la carta My Agorà, fino al {valid_to}.",
+        "image_headline": "Dr. Theiss Arnica Gel Forte",
+        "image_subline": "100 ml",
+        "hashtags": [
+          "#Farmagorà",
+          "#offerte"
+        ]
+      },
+      "caption_final": "💪 Dr. Theiss Arnica Gel Forte: -35% con la carta My Agorà, fino al 15 novembre.",
+      "disclaimers": [
+        "Solo con carta My Agorà",
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/stories/story-04.png"
+    },
+    {
+      "spec": {
+        "id": "story-05",
+        "kind": "story",
+        "topic": "product",
+        "product_ids": [
+          "nuxe-ready-glow-go-reve-de-miel-2-pezzi"
+        ],
+        "ref_ids": [],
+        "publish_date": "2026-10-28",
+        "brief": "Story offerta: Nuxe Ready, Glow, Go Reve de Miel."
+      },
+      "copy": {
+        "id": "story-05",
+        "caption": "✨ Nuxe Ready, Glow, Go Reve de Miel: {discount:nuxe-ready-glow-go-reve-de-miel-2-pezzi}, fino al {valid_to}.",
+        "image_headline": "Nuxe Ready, Glow, Go Reve de Miel",
+        "image_subline": "2 pezzi",
+        "hashtags": [
+          "#Farmagorà",
+          "#offerte"
+        ]
+      },
+      "caption_final": "✨ Nuxe Ready, Glow, Go Reve de Miel: -35%, fino al 15 novembre.",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/stories/story-05.png"
+    },
+    {
+      "spec": {
+        "id": "story-06",
+        "kind": "story",
+        "topic": "last_call",
+        "product_ids": [],
+        "ref_ids": [],
+        "publish_date": "2026-11-14",
+        "brief": "Story: ultimo giorno delle offerte."
+      },
+      "copy": {
+        "id": "story-06",
+        "caption": "⏰ Ultimo giorno per le offerte del volantino!",
+        "image_headline": "ULTIMI GIORNI",
+        "image_subline": "fino al {valid_to}",
+        "hashtags": [
+          "#Farmagorà"
+        ]
+      },
+      "caption_final": "⏰ Ultimo giorno per le offerte del volantino!",
+      "disclaimers": [
+        "Offerte valide fino a esaurimento scorte. I prezzi potrebbero subire variazioni nel caso di errori o omissioni di stampa. Le fotografie hanno valore puramente illustrativo."
+      ],
+      "image_path": "out/stories/story-06.png"
+    }
+  ],
+  "screens": [
+    {
+      "spec": {
+        "id": "screen-01",
+        "product_id": "enterogermina-4-miliardi-20-flaconcini-da-5-ml"
+      },
+      "headline": "Gli imperdibili",
+      "price_text": "€19,79",
+      "old_price_text": "€28,29",
+      "discount_text": "-30%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": null,
+      "disclaimer": "Per un corretto uso del farmaco leggere attentamente tutte le informazioni presenti nel libretto illustrativo.",
+      "image_path": "out/screens/screen-01.png"
+    },
+    {
+      "spec": {
+        "id": "screen-02",
+        "product_id": "actigrip-giorno-e-notte-12-4-compresse"
+      },
+      "headline": "Gli imperdibili",
+      "price_text": "€11,39",
+      "old_price_text": "€15,79",
+      "discount_text": "-27%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": null,
+      "disclaimer": "Per un corretto uso del farmaco leggere attentamente tutte le informazioni presenti nel libretto illustrativo.",
+      "image_path": "out/screens/screen-02.png"
+    },
+    {
+      "spec": {
+        "id": "screen-03",
+        "product_id": "swisse-pelle-capelli-unghie-60-compresse"
+      },
+      "headline": "Gli imperdibili",
+      "price_text": "€24,49",
+      "old_price_text": "€32,90",
+      "discount_text": "-25%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": null,
+      "disclaimer": null,
+      "image_path": "out/screens/screen-03.png"
+    },
+    {
+      "spec": {
+        "id": "screen-04",
+        "product_id": "winter-cerotto-stop-dol-arnica-vbe-e-artiglio-del-diavolo-1-pezzo"
+      },
+      "headline": "Gli imperdibili",
+      "price_text": "€1,99",
+      "old_price_text": "€3,69",
+      "discount_text": "-46%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": null,
+      "disclaimer": null,
+      "image_path": "out/screens/screen-04.png"
+    },
+    {
+      "spec": {
+        "id": "screen-05",
+        "product_id": "isypan-probiotik-24-bustine"
+      },
+      "headline": "Benessere gastrointestinale",
+      "price_text": "€14,99",
+      "old_price_text": "€25,90",
+      "discount_text": "-42%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": null,
+      "disclaimer": null,
+      "image_path": "out/screens/screen-05.png"
+    },
+    {
+      "spec": {
+        "id": "screen-06",
+        "product_id": "dr-theiss-arnica-gel-forte-100-ml"
+      },
+      "headline": "Dolore",
+      "price_text": "€9,99",
+      "old_price_text": "€15,50",
+      "discount_text": "-35%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": "SOLO CON MY AGORÀ",
+      "disclaimer": "Solo con carta My Agorà",
+      "image_path": "out/screens/screen-06.png"
+    },
+    {
+      "spec": {
+        "id": "screen-07",
+        "product_id": "nuxe-ready-glow-go-reve-de-miel-2-pezzi"
+      },
+      "headline": "Bellezza del corpo e del viso",
+      "price_text": "€13,49",
+      "old_price_text": "€20,79",
+      "discount_text": "-35%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": null,
+      "disclaimer": null,
+      "image_path": "out/screens/screen-07.png"
+    },
+    {
+      "spec": {
+        "id": "screen-08",
+        "product_id": "nuxe-ready-glow-go-pink-2-pezzi"
+      },
+      "headline": "Bellezza del corpo e del viso",
+      "price_text": "€16,79",
+      "old_price_text": "€25,49",
+      "discount_text": "-34%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": null,
+      "disclaimer": null,
+      "image_path": "out/screens/screen-08.png"
+    },
+    {
+      "spec": {
+        "id": "screen-09",
+        "product_id": "oral-b-io-series-2-1-pezzo"
+      },
+      "headline": "Igiene personale",
+      "price_text": "€59,90",
+      "old_price_text": "€89,90",
+      "discount_text": "-33%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": "SOLO CON MY AGORÀ",
+      "disclaimer": "Solo con carta My Agorà",
+      "image_path": "out/screens/screen-09.png"
+    },
+    {
+      "spec": {
+        "id": "screen-10",
+        "product_id": "enerzona-omega-3rx-110-capsule"
+      },
+      "headline": "Salute e benessere",
+      "price_text": "€39,90",
+      "old_price_text": "€54,90",
+      "discount_text": "-27%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": "SOLO CON MY AGORÀ",
+      "disclaimer": "Solo con carta My Agorà",
+      "image_path": "out/screens/screen-10.png"
+    },
+    {
+      "spec": {
+        "id": "screen-11",
+        "product_id": "lactoflorene-plus-12-flaconcini"
+      },
+      "headline": "Benessere gastrointestinale",
+      "price_text": "€12,99",
+      "old_price_text": "€17,29",
+      "discount_text": "-24%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": "SOLO CON MY AGORÀ",
+      "disclaimer": "Solo con carta My Agorà",
+      "image_path": "out/screens/screen-11.png"
+    },
+    {
+      "spec": {
+        "id": "screen-12",
+        "product_id": "neoborocillina-propolmiele-16-pastiglie-miele-limone"
+      },
+      "headline": "Rimedi stagionali",
+      "price_text": "€9,39",
+      "old_price_text": "€11,79",
+      "discount_text": "-20%",
+      "validity_text": "Offerta valida fino al 15 novembre",
+      "badge": null,
+      "disclaimer": null,
+      "image_path": "out/screens/screen-12.png"
+    }
+  ],
+  "compliance": {
+    "issues": [
+      {
+        "severity": "review",
+        "target": "post-03",
+        "rule": "medicine",
+        "message": "Enterogermina 4 Miliardi is a medicine: check the copy manually"
+      },
+      {
+        "severity": "review",
+        "target": "post-04",
+        "rule": "medicine",
+        "message": "Actigrip Giorno&Notte is a medicine: check the copy manually"
+      },
+      {
+        "severity": "review",
+        "target": "post-09",
+        "rule": "loyalty_exclusions",
+        "message": "loyalty exclusions unknown for this flyer: confirm small print"
+      },
+      {
+        "severity": "review",
+        "target": "screen-01",
+        "rule": "medicine",
+        "message": "Enterogermina 4 Miliardi is a medicine: check the slide manually"
+      },
+      {
+        "severity": "review",
+        "target": "screen-02",
+        "rule": "medicine",
+        "message": "Actigrip Giorno&Notte is a medicine: check the slide manually"
+      }
+    ]
+  }
+}

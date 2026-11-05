@@ -1,0 +1,10 @@
+# Real approved captions used as few-shot examples. Add more (product, service, loyalty) as they are collected.
+- topic: flyer_teaser
+  channel: facebook
+  date: 2026-10-21
+  source: tests/fixtures/social/2026-10-21_facebook_sfoglia-il-volantino.png
+  image_headline: "SFOGLIA IL volantino"
+  caption: >-
+    📖 Hai già visto il nostro volantino del mese?
+    Sfoglialo comodamente su www.farmagora.it o direttamente in farmacia e scopri le promozioni
+    e i prodotti che abbiamo selezionato per le tue esigenze quotidiane!

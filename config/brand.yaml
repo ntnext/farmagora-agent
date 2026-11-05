@@ -1,0 +1,24 @@
+# Farmagorà brand — starter values taken from the 3 fixture flyers and the 21 Oct 2026 post.
+# Colours are the official logo colours. Typography: confirm with the brand guidelines.
+name: "Farmagorà"
+website: "www.farmagora.it"
+network_cta: "Trova la farmacia Farmagorà più vicina su www.farmagora.it"
+colors:                  # sampled from the official logo (assets/logo-farmagora-orizzontale.jpg)
+  navy: "#015176"        # wordmark, top block of the mark, text, price badges, frames
+  yellow: "#FED061"      # mark blocks and "+", accents, highlights
+  white: "#FFFFFF"       # main background
+  navy_tint: "#E6EEF2"   # light background derived from navy (as on flyer pages)
+typography:
+  headline: "bold geometric sans, uppercase"   # set real font files in assets/fonts
+  script: "handwritten script for one accent word"
+  price: "large italic script numerals, smaller cents"
+logo:
+  path: "assets/logo-farmagora-orizzontale.jpg"   # TODO: SVG / transparent PNG + white version
+motifs:
+  social_frame: "navy corner brackets top-left and bottom-right, logo centred at bottom"
+tone:
+  voice: "friendly, close, practical; speaks as 'noi' (the pharmacy) to 'tu'"
+  opener: "a short question"
+  emoji: "max 1, at the start of the caption"
+  cta: "Sfoglialo su www.farmagora.it o direttamente in farmacia"
+  avoid: ["superlatives about health outcomes", "urgency pressure on medicines", "slang"]
